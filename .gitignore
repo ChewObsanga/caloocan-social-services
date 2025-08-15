@@ -1,0 +1,64 @@
+# Laravel
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.production
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Laravel Storage
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+/storage/app/public/*
+!storage/framework/cache/.gitignore
+!storage/framework/sessions/.gitignore
+!storage/framework/views/.gitignore
+!storage/framework/testing/.gitignore
+
+# Laravel Bootstrap
+/bootstrap/cache/*
+!bootstrap/cache/.gitignore
+
+# Composer
+composer.phar
+/vendor/
+
+# NPM
+/node_modules
+package-lock.json
+
+# Build assets (will be regenerated)
+/public/build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Cache
+.php_cs.cache
+
+# Testing
+/coverage
+.phpunit.cache
+
+# Temporary files
+*.tmp
+*.temp
